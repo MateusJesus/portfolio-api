@@ -12,12 +12,10 @@ app.use(express.json());
 
 const apiFilePath = path.join(__dirname, "api.json");
 
-// Funções auxiliares para manipulação do arquivo JSON
 const readApiFile = () => JSON.parse(fs.readFileSync(apiFilePath, "utf-8"));
 const writeApiFile = (data) =>
   fs.writeFileSync(apiFilePath, JSON.stringify(data, null, 2), "utf-8");
 
-// Middleware de autenticação
 const authenticate = (req, res, next) => {
   const password = req.headers["x-api-password"];
   if (password && password === process.env.API_PASSWORD) {
@@ -27,7 +25,6 @@ const authenticate = (req, res, next) => {
   }
 };
 
-// Rota para editar um projeto
 app.put("/api-edit", authenticate, (req, res) => {
   try {
     const { id, title, shortDescription, description, website, github, image, tec, duration, featured } = req.body;
@@ -61,7 +58,6 @@ app.put("/api-edit", authenticate, (req, res) => {
   }
 });
 
-// Rota para deletar um projeto
 app.delete("/api-delete", authenticate, (req, res) => {
   try {
     const { id } = req.body;
@@ -72,7 +68,7 @@ app.delete("/api-delete", authenticate, (req, res) => {
       return res.status(404).json({ message: "Projeto não encontrado." });
     }
 
-    const deletedProject = data.projects.splice(projectIndex, 1); // Remove o projeto do array
+    const deletedProject = data.projects.splice(projectIndex, 1); 
     writeApiFile(data);
 
     res.json({
@@ -84,7 +80,6 @@ app.delete("/api-delete", authenticate, (req, res) => {
   }
 });
 
-// Rota para listar projetos (sem autenticação)
 app.post("/api", (req, res) => {
   try {
     res.status(200).json({ projects: readApiFile().projects });
@@ -94,7 +89,6 @@ app.post("/api", (req, res) => {
   }
 });
 
-// Rota para adicionar um novo projeto
 app.post("/api-post", authenticate, (req, res) => {
   try {
     const {
