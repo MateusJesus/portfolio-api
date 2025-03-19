@@ -80,7 +80,7 @@ app.delete("/api-delete", authenticate, (req, res) => {
   }
 });
 
-app.post("/api", (req, res) => {
+app.post("/api", authenticate, (req, res) => {
   try {
     res.status(200).json({ projects: readApiFile().projects });
   } catch (error) {

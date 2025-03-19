@@ -1,232 +1,142 @@
 {
-  "aboutMe": [
-    {
-      "id": 1,
-      "title": "Minhas ",
-      "dest": "especialidades",
-      "content": [
-        "HTML5 e CSS3 (com técnicas de responsividade e acessibilidade)",
-        "JavaScript (ES6+)",
-        "ReactJS (Componentização, Hooks, React Router DOM e Consumo de APIs)",
-        "PHP (básico) para integração Back-End",
-        "Git/GitHub para versionamento de código",
-        "Figma para prototipagem e criação de interfaces"
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Estudando ",
-      "dest": "atualmente",
-      "content": [
-        "Desenvolvimento de Progressive Web Apps (PWA)",
-        "Integração com APIs REST",
-        "Boas práticas de Clean Code",
-        "Design System com Styled Components",
-        "NextJS"
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Objetivo ",
-      "dest": "profissional",
-      "content": [
-        "Meu objetivo é me tornar um Desenvolvedor Front-End especializado em React, criando interfaces modernas que proporcionem experiências incríveis para os usuários.",
-        "Estou em busca de oportunidades como Desenvolvedor Júnior para aplicar meus conhecimentos, colaborar em projetos e crescer profissionalmente na área de tecnologia."
-      ]
-    }
-  ],
   "projects": [
-    {
-      "id": 1,
-      "title": "Punk Zombie RPG",
-      "shortDescription": "Criação de fichas de RPG, com banco de dados.",
-      "description": "O que começou como uma simples brincadeira entre amigos se transformou em um dos meus projetos mais orgulhosos. A ideia era criar um site para armazenar fichas de RPG e permitir que o mestre as acessasse facilmente. Aprendi MySQL e PHP, implementei um banco de dados e desenvolvi um sistema de cadastro, algo totalmente novo para mim na época. Ainda tem muito o que melhorar, mas essa jornada elevou meu crescimento como desenvolvedor.",
-      "website": "http://punkzombie.rf.gd",
-      "github": "https://github.com/MateusJesus/RPG-PunkZombie",
-      "image": "/assets/imgpages/rpgpunkzombie.png",
-      "tec": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        7,
-        9
-      ],
-      "duration": "24/02/2024 - 06/08/2024",
-      "featured": true
-    },
-    {
-      "id": 2,
-      "title": "AluraBook",
-      "shortDescription": "Projeto acadêmico - Alura.",
-      "description": "Um dos meus primeiros projetos como desenvolvedor, criado durante meus estudos na Alura. Desenvolvi uma interface inspirada em lojas de livros digitais, aplicando conceitos fundamentais de HTML, CSS, JavaScript e flexbox para construir uma página responsiva e moderna.",
-      "website": "https://mateusjesus.github.io/AluraBook/",
-      "github": "https://github.com/mateusjesus/AluraBook",
-      "image": "/assets/imgpages/alurabook.png",
-      "tec": [
-        1,
-        2,
-        3,
-        9
-      ],
-      "duration": "29/11/2023 - 08/12/2023",
-      "featured": true
-    },
-    {
-      "id": 3,
-      "title": "AluraPlus",
-      "shortDescription": "Projeto acadêmico - Alura.",
-      "description": "Projeto desenvolvido como parte do curso da Alura, recriando uma landing page inspirada em serviços de streaming. Trabalhei com HTML, CSS e flexbox para construir uma página responsiva e moderna.",
-      "website": "https://aluraplus-orcin-ten.vercel.app",
-      "github": "https://github.com/mateusjesus/AluraPlus",
-      "image": "/assets/imgpages/aluraplus.png",
-      "tec": [
-        1,
-        2,
-        3,
-        9
-      ],
-      "duration": "13/11/2023 - 19/11/2023",
-      "featured": true
-    },
-    {
-      "id": 4,
-      "title": "Spotify Fake",
-      "shortDescription": "Projeto acadêmico - Alura.",
-      "description": "Primeiro projeto em React inspirado no Spotify, criado durante a Imersão da alura. Apresenta um layout moderno e estruturado com flexbox e grid.",
-      "website": "https://mateusjesus.github.io/spotify-fake/",
-      "github": "https://github.com/mateusjesus/spotify-fake",
-      "tec": [
-        1,
-        2,
-        3,
-        9,
-        10
-      ],
-      "duration": "24/01/2024 - 30/01/2024",
-      "image": "/assets/imgpages/spotify.png",
-      "featured": false
-    },
-    {
-      "id": 5,
-      "title": "GTA Fake",
-      "shortDescription": "Projeto acadêmico - Imersão DEV.",
-      "description": "Projeto criado durante a Imersão DEV, simulando uma interface inspirada em jogos da franquia GTA. O foco foi aprimorar habilidades em HTML, CSS e JavaScript, implementando elementos visuais e interativos.",
-      "website": "https://mateusjesus.github.io/Gta-fake/",
-      "github": "https://github.com/mateusjesus/Gta-fake",
-      "tec": [
-        1,
-        2,
-        3
-      ],
-      "duration": "25/01/2024 - 29/01/2024",
-      "image": "/assets/imgpages/gtafake.png",
-      "featured": false
-    },
-    {
-      "id": 6,
-      "title": "FAQ Accordion",
-      "shortDescription": "Projeto acadêmico - Frontend Mentor.",
-      "description": "Desafio do Frontend Mentor focado na criação de um componente de FAQ interativo. Utilizei HTML, CSS e JavaScript para criar um design responsivo com animações suaves na abertura e fechamento das perguntas.",
-      "website": "https://mateusjesus.github.io/FM4-FAQ-accordion/",
-      "github": "https://github.com/mateusjesus/FM4-FAQ-accordion",
-      "image": "/assets/imgpages/FMfaq.png",
-      "tec": [
-        1,
-        2,
-        3
-      ],
-      "duration": "20/02/2024 - 23/02/2024",
-      "featured": false
-    },
-    {
-      "id": 7,
-      "title": "Social Proof Section",
-      "shortDescription": "Projeto acadêmico - Frontend Mentor.",
-      "description": "Desafio do Frontend Mentor que consistia na criação de uma seção de avaliações de clientes. Trabalhei com HTML e CSS para estruturar um layout responsivo e agradável, seguindo boas práticas de design.",
-      "website": "https://mateusjesus.github.io/FM3-Social-proof-section/",
-      "github": "https://github.com/mateusjesus/FM3-Social-proof-section",
-      "image": "/assets/imgpages/fmsocial.png",
-      "tec": [
-        1,
-        2,
-        3
-      ],
-      "duration": "08/02/2024",
-      "featured": false
-    }
-  ],
-  "tec": [
-    {
-      "id": 1,
-      "name": "html",
-      "image": "/assets/icontec/html.png",
-      "icon": "faHtml5",
-      "alt": "Logo do html5"
-    },
-    {
-      "id": 2,
-      "name": "css",
-      "image": "/assets/icontec/css.png",
-      "icon": "faCss3Alt",
-      "alt": "Logo do css"
-    },
-    {
-      "id": 3,
-      "name": "javascript",
-      "image": "/assets/icontec/javascript.png",
-      "icon": "faJs",
-      "alt": "Logo do javascript"
-    },
-    {
-      "id": 4,
-      "name": "php",
-      "image": "/assets/icontec/php.png",
-      "icon": "faPhp",
-      "alt": "Logo do php"
-    },
-    {
-      "id": 5,
-      "name": "mysql",
-      "image": "/assets/icontec/mysql.png",
-      "icon": "faDatabase",
-      "alt": "Logo do mysql"
-    },
-    {
-      "id": 6,
-      "name": "xampp",
-      "image": "/assets/icontec/xampp.png",
-      "icon": false,
-      "alt": "Logo do xampp"
-    },
-    {
-      "id": 7,
-      "name": "bootstrap",
-      "image": "/assets/icontec/bootstrap.png",
-      "icon": "faBootstrap",
-      "alt": "Logo do bootstrap"
-    },
-    {
-      "id": 8,
-      "name": "vscode",
-      "image": "/assets/icontec/vscode.png",
-      "icon": "faCode",
-      "alt": "Logo do vscode"
-    },
-    {
-      "id": 9,
-      "name": "figma",
-      "image": "/assets/icontec/figma.png",
-      "icon": "faFigma",
-      "alt": "Logo do figma"
-    },
-    {
-      "id": 10,
-      "name": "react",
-      "image": "/assets/icontec/react.png",
-      "icon": "faReact",
-      "alt": "Logo do React"
-    }
+      {
+          "id": 1,
+          "title": "Punk Zombie RPG",
+          "shortDescription": "Criação de fichas de RPG, com banco de dados.",
+          "description": "O que começou como uma simples brincadeira entre amigos se transformou em um dos meus projetos mais orgulhosos. A ideia era criar um site para armazenar fichas de RPG e permitir que o mestre as acessasse facilmente. Aprendi MySQL e PHP, implementei um banco de dados e desenvolvi um sistema de cadastro, algo totalmente novo para mim na época. Ainda tem muito o que melhorar, mas essa jornada elevou meu crescimento como desenvolvedor.",
+          "website": "http://punkzombie.rf.gd",
+          "github": "https://github.com/MateusJesus/RPG-PunkZombie",
+          "image": "https://raw.githubusercontent.com/MateusJesus/portfolio-api/refs/heads/main/assets/imgpages/rpgpunkzombie.png",
+          "tec": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              7,
+              9
+          ],
+          "duration": "24/02/2024 - 06/08/2024",
+          "featured": true
+      },
+      {
+          "id": 2,
+          "title": "AluraBook",
+          "shortDescription": "Projeto acadêmico - Alura.",
+          "description": "Um dos meus primeiros projetos como desenvolvedor, criado durante meus estudos na Alura. Desenvolvi uma interface inspirada em lojas de livros digitais, aplicando conceitos fundamentais de HTML, CSS, JavaScript e flexbox para construir uma página responsiva e moderna.",
+          "website": "https://mateusjesus.github.io/AluraBook/",
+          "github": "https://github.com/mateusjesus/AluraBook",
+          "image": "https://raw.githubusercontent.com/MateusJesus/portfolio-api/refs/heads/main/assets/imgpages/alurabook.png",
+          "tec": [
+              1,
+              2,
+              3,
+              9
+          ],
+          "duration": "29/11/2023 - 08/12/2023",
+          "featured": true
+      },
+      {
+          "id": 3,
+          "title": "AluraPlus",
+          "shortDescription": "Projeto acadêmico - Alura.",
+          "description": "Projeto desenvolvido como parte do curso da Alura, recriando uma landing page inspirada em serviços de streaming. Trabalhei com HTML, CSS e flexbox para construir uma página responsiva e moderna.",
+          "website": "https://aluraplus-orcin-ten.vercel.app",
+          "github": "https://github.com/mateusjesus/AluraPlus",
+          "image": "https://raw.githubusercontent.com/MateusJesus/portfolio-api/refs/heads/main/assets/imgpages/aluraplus.png",
+          "tec": [
+              1,
+              2,
+              3,
+              9
+          ],
+          "duration": "13/11/2023 - 19/11/2023",
+          "featured": true
+      },
+      {
+          "id": 4,
+          "title": "Spotify Fake",
+          "shortDescription": "Projeto acadêmico - Alura.",
+          "description": "Primeiro projeto em React inspirado no Spotify, criado durante a Imersão da alura. Apresenta um layout moderno e estruturado com flexbox e grid.",
+          "website": "https://mateusjesus.github.io/spotify-fake/",
+          "github": "https://github.com/mateusjesus/spotify-fake",
+          "tec": [
+              1,
+              2,
+              3,
+              9,
+              10
+          ],
+          "duration": "24/01/2024 - 30/01/2024",
+          "image": "https://raw.githubusercontent.com/MateusJesus/portfolio-api/refs/heads/main/assets/imgpages/spotify.png",
+          "featured": false
+      },
+      {
+          "id": 5,
+          "title": "GTA Fake",
+          "shortDescription": "Projeto acadêmico - Imersão DEV.",
+          "description": "Projeto criado durante a Imersão DEV, simulando uma interface inspirada em jogos da franquia GTA. O foco foi aprimorar habilidades em HTML, CSS e JavaScript, implementando elementos visuais e interativos.",
+          "website": "https://mateusjesus.github.io/Gta-fake/",
+          "github": "https://github.com/mateusjesus/Gta-fake",
+          "tec": [
+              1,
+              2,
+              3
+          ],
+          "duration": "25/01/2024 - 29/01/2024",
+          "image": "https://raw.githubusercontent.com/MateusJesus/portfolio-api/refs/heads/main/assets/imgpages/gtafake.png",
+          "featured": false
+      },
+      {
+          "id": 6,
+          "title": "FAQ Accordion",
+          "shortDescription": "Projeto acadêmico - Frontend Mentor.",
+          "description": "Desafio do Frontend Mentor focado na criação de um componente de FAQ interativo. Utilizei HTML, CSS e JavaScript para criar um design responsivo com animações suaves na abertura e fechamento das perguntas.",
+          "website": "https://mateusjesus.github.io/FM4-FAQ-accordion/",
+          "github": "https://github.com/mateusjesus/FM4-FAQ-accordion",
+          "image": "https://raw.githubusercontent.com/MateusJesus/portfolio-api/refs/heads/main/assets/imgpages/FMfaq.png",
+          "tec": [
+              1,
+              2,
+              3
+          ],
+          "duration": "20/02/2024 - 23/02/2024",
+          "featured": false
+      },
+      {
+          "id": 7,
+          "title": "Social Proof Section",
+          "shortDescription": "Projeto acadêmico - Frontend Mentor.",
+          "description": "Desafio do Frontend Mentor que consistia na criação de uma seção de avaliações de clientes. Trabalhei com HTML e CSS para estruturar um layout responsivo e agradável, seguindo boas práticas de design.",
+          "website": "https://mateusjesus.github.io/FM3-Social-proof-section/",
+          "github": "https://github.com/mateusjesus/FM3-Social-proof-section",
+          "image": "https://raw.githubusercontent.com/MateusJesus/portfolio-api/refs/heads/main/assets/imgpages/fmsocial.png",
+          "tec": [
+              1,
+              2,
+              3
+          ],
+          "duration": "08/02/2024",
+          "featured": false
+      },
+      {
+          "id": 8,
+          "title": "Organo",
+          "shortDescription": "Projeto acadêmico - Alura.",
+          "description": "Primeiro projeto em ReactJS, feito com os ensinamentos da Alura.",
+          "website": "https://organo-rho-woad.vercel.app",
+          "github": "https://github.com/MateusJesus/organo",
+          "image": "https://raw.githubusercontent.com/MateusJesus/portfolio-api/refs/heads/main/assets/imgpages/organo.png",
+          "tec": [
+              1,
+              2,
+              3,
+              9,
+              10
+          ],
+          "duration": "24/02/2024 - 06/08/2024",
+          "featured": false
+      }
   ]
 }
