@@ -27,7 +27,25 @@ const authenticate = (req, res, next) => {
 
 app.put("/api-edit", authenticate, (req, res) => {
   try {
-    const { id, title, shortDescription, description, website, github, image, tec, duration, featured } = req.body;
+    const {
+      id,
+      title,
+      shortDescription,
+      description,
+      website,
+      github,
+      image,
+      tec,
+      duration,
+      featured,
+      postPassword,
+    } = req.body;
+
+    if (postPassword !== process.env.POST_PROJECT) {
+      return res
+        .status(403)
+        .json({ message: "Acesso negado. Senha de post inválida." });
+    }
     
     let data = readApiFile();
     let projectIndex = data.projects.findIndex((p) => p.id === id);
@@ -37,21 +55,23 @@ app.put("/api-edit", authenticate, (req, res) => {
     }
 
     data.projects[projectIndex] = {
-      ...data.projects[projectIndex], 
+      ...data.projects[projectIndex],
       title,
       shortDescription,
       description,
       website,
       github,
       image,
-      tec: Array.isArray(tec) ? tec : [], 
+      tec: Array.isArray(tec) ? tec : [],
       duration,
       featured: !!featured,
     };
 
     writeApiFile(data);
 
-    res.json({ message: `Projeto "${title}" (ID: ${id}) atualizado com sucesso!` });
+    res.json({
+      message: `Projeto "${title}" (ID: ${id}) atualizado com sucesso!`,
+    });
   } catch (error) {
     console.error("Erro ao editar projeto:", error);
     res.status(500).json({ message: "Erro interno no servidor" });
@@ -68,7 +88,7 @@ app.delete("/api-delete", authenticate, (req, res) => {
       return res.status(404).json({ message: "Projeto não encontrado." });
     }
 
-    const deletedProject = data.projects.splice(projectIndex, 1); 
+    const deletedProject = data.projects.splice(projectIndex, 1);
     writeApiFile(data);
 
     res.json({
@@ -106,7 +126,9 @@ app.post("/api-post", authenticate, (req, res) => {
     } = req.body;
 
     if (postPassword !== process.env.POST_PROJECT) {
-      return res.status(403).json({ message: "Acesso negado. Senha de post inválida." });
+      return res
+        .status(403)
+        .json({ message: "Acesso negado. Senha de post inválida." });
     }
 
     const project = {
@@ -126,7 +148,9 @@ app.post("/api-post", authenticate, (req, res) => {
     data.projects.push(project);
     writeApiFile(data);
 
-    res.status(201).json({ message: "Projeto adicionado com sucesso!", project });
+    res
+      .status(201)
+      .json({ message: "Projeto adicionado com sucesso!", project });
   } catch (error) {
     console.error("Erro ao adicionar projeto:", error);
     res.status(500).json({ message: "Erro interno no servidor" });
