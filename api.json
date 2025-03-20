@@ -8,7 +8,16 @@
       "website": "http://punkzombie.rf.gd",
       "github": "https://github.com/MateusJesus/RPG-PunkZombie",
       "image": "1IpANsnCeEOIHQ0ZMigjiM7O77YEPEC_K",
-      "tec": [1, 2, 3, 4, 5, 7, 8, 9],
+      "tec": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
       "duration": "24/02/2024 - 06/08/2024",
       "featured": true
     },
@@ -20,7 +29,13 @@
       "website": "https://mateusjesus.github.io/AluraBook/",
       "github": "https://github.com/mateusjesus/AluraBook",
       "image": "1YW7WUw6hAp1qjQ_Msf-UQS_m4KFuCMkO",
-      "tec": [1, 2, 3, 8, 9],
+      "tec": [
+        1,
+        2,
+        3,
+        8,
+        9
+      ],
       "duration": "29/11/2023 - 08/12/2023",
       "featured": false
     },
@@ -32,7 +47,13 @@
       "website": "https://aluraplus-orcin-ten.vercel.app",
       "github": "https://github.com/mateusjesus/AluraPlus",
       "image": "1br0HpOifNS5qe9L6LWQPVVgFStwznZkb",
-      "tec": [1, 2, 3, 8, 9],
+      "tec": [
+        1,
+        2,
+        3,
+        8,
+        9
+      ],
       "duration": "13/11/2023 - 19/11/2023",
       "featured": false
     },
@@ -43,7 +64,14 @@
       "description": "Primeiro projeto em React inspirado no Spotify, criado durante a Imersão da alura. Apresenta um layout moderno e estruturado com flexbox e grid.",
       "website": "https://mateusjesus.github.io/spotify-fake/",
       "github": "https://github.com/mateusjesus/spotify-fake",
-      "tec": [1, 2, 3, 8, 9, 10],
+      "tec": [
+        1,
+        2,
+        3,
+        8,
+        9,
+        10
+      ],
       "duration": "24/01/2024 - 30/01/2024",
       "image": "1z-BcqkJn0PnJ9vLCEnm_cnLJ9IURSVeB",
       "featured": false
@@ -55,7 +83,12 @@
       "description": "Projeto criado durante a Imersão DEV, simulando uma interface inspirada em jogos da franquia GTA. O foco foi aprimorar habilidades em HTML, CSS e JavaScript, implementando elementos visuais e interativos.",
       "website": "https://mateusjesus.github.io/Gta-fake/",
       "github": "https://github.com/mateusjesus/Gta-fake",
-      "tec": [1, 2, 3, 8],
+      "tec": [
+        1,
+        2,
+        3,
+        8
+      ],
       "duration": "25/01/2024 - 29/01/2024",
       "image": "1eincBha7GT778bFCQEOoshA5wb8oB32T",
       "featured": false
@@ -68,7 +101,12 @@
       "website": "https://mateusjesus.github.io/FM4-FAQ-accordion/",
       "github": "https://github.com/mateusjesus/FM4-FAQ-accordion",
       "image": "1oCiIGjVKGZmg2yCL0mzoKE0Dp8sMIKps",
-      "tec": [1, 2, 3, 8],
+      "tec": [
+        1,
+        2,
+        3,
+        8
+      ],
       "duration": "20/02/2024 - 23/02/2024",
       "featured": false
     },
@@ -80,7 +118,12 @@
       "website": "https://mateusjesus.github.io/FM3-Social-proof-section/",
       "github": "https://github.com/mateusjesus/FM3-Social-proof-section",
       "image": "1Sopbyeen53JlaaTnlmjgXdXao1M2YuUW",
-      "tec": [1, 2, 3, 8],
+      "tec": [
+        1,
+        2,
+        3,
+        8
+      ],
       "duration": "08/02/2024 - 14/02/2024",
       "featured": false
     },
@@ -92,7 +135,14 @@
       "website": "https://organo-rho-woad.vercel.app",
       "github": "https://github.com/MateusJesus/organo",
       "image": "110_q8-2f_oHFPL7OqGBFH4rrErP5x0T-",
-      "tec": [1, 2, 3, 9, 8, 10],
+      "tec": [
+        1,
+        2,
+        3,
+        9,
+        8,
+        10
+      ],
       "duration": "30/10/2024 - 10/11/2024",
       "featured": true
     },
@@ -104,7 +154,14 @@
       "website": "https://space-app-alpha-livid.vercel.app",
       "github": "https://github.com/MateusJesus/Space-App",
       "image": "1gjotCgaDXr0fRFCyHCccOI-SK6ax3y_h",
-      "tec": [1, 2, 3, 9, 8, 10],
+      "tec": [
+        1,
+        2,
+        3,
+        9,
+        8,
+        10
+      ],
       "duration": "02/12/2024 -  07/01/2025",
       "featured": true
     },
@@ -116,8 +173,35 @@
       "website": "https://ola-mundo-three-tau.vercel.app",
       "github": "https://github.com/MateusJesus/ola-mundo",
       "image": "1aW54GFwcGsQKa86LfKueEe9K53UW3aER",
-      "tec": [1, 2, 3, 9, 8, 10],
+      "tec": [
+        1,
+        2,
+        3,
+        9,
+        8,
+        10
+      ],
       "duration": "26/11/2024 - 01/12/2024",
+      "featured": false
+    },
+    {
+      "id": 11,
+      "title": "Meetups",
+      "shortDescription": "Projeto acadêmico - Udemy.",
+      "description": "Projeto feito em ReactJS com ajuda da udemy, ulizando tecnologias como react-router e banco de dados (Fire Base) para acessar e postar as informações.",
+      "website": "https://meetups-five-mocha.vercel.app",
+      "github": "https://github.com/MateusJesus/Meetups",
+      "image": "186n18-Gz4zzSZHIOp0UE1RN0thv64q-s",
+      "tec": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        8,
+        10
+      ],
+      "duration": "11/01/2025 - 17/01/2025",
       "featured": false
     }
   ]
