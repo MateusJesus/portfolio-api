@@ -109,6 +109,15 @@ app.post("/api", authenticate, (req, res) => {
   }
 });
 
+app.get("/api-get", authenticate, (req, res) => {
+  try {
+    res.status(200).json({ projects: readApiFile().projects });
+  } catch (error) {
+    console.error("Erro ao buscar projetos:", error);
+    res.status(500).json({ message: "Erro interno no servidor" });
+  }
+});
+
 app.post("/api-post", authenticate, (req, res) => {
   try {
     const {
@@ -158,12 +167,3 @@ app.post("/api-post", authenticate, (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
-
-app.get("/test", authenticate, (req, res) => {
-  try {
-    res.status(200).json({ projects: readApiFile().projects });
-  } catch (error) {
-    console.error("Erro ao buscar projetos:", error);
-    res.status(500).json({ message: "Erro interno no servidor" });
-  }
-});
