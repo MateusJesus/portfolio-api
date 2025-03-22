@@ -158,3 +158,7 @@ app.post("/api-post", authenticate, (req, res) => {
 });
 
 app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));
+
+app.get("/test", (req, res) => {
+  res.json({ message: "API está rodando corretamente!" });
+});
